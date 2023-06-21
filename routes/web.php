@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ScraperController;
+use App\Http\Controllers\dbController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,21 +36,8 @@ Route::get('/rocketleague', function () {
     return view('rocketleague');
 });
 
-Route::get('/valopatch', function () {
-    return view('/patch/valopatch');
-});
-
-Route::get('/cssmokes', function () {
-    return view('/videos/cssmokes');
-});
 
 
-Route::get('/gallery', function () {
-    return view('/gallery');
-});
-
-Route::post('/gallery-upload', function () {
-    return view('includes/gallery-upload');
-});
-
-Route::get('/cspatch', [ScraperController::class, 'cs']);
+Route::get('/abilityData', [
+    dbController::class, "valorantData"
+]);

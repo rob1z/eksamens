@@ -15,7 +15,7 @@
     text-align:left;
     flex: 1;
   }
-  
+
   .title{
     margin-bottom:25px;
   }
@@ -35,9 +35,7 @@
     padding-bottom:35px;
     margin-top:75px;
     display:flex;
-    
   }
-
 .video{
   flex: 1;
 }
@@ -45,29 +43,14 @@
     color:grey;
     
   }
-
   :root {
-    --red: #ef233c;
-    --darkred: #c00424;
-    --platinum: #e5e5e5;
-    --black: #2b2d42;
     --white: #fff;
-    --thumb: #edf2f4;
   }
-  
-  
-  
   body {
     font: 16px / 24px "Rubik", sans-serif;
     color: var(--black);
     background: url("data:image/jpeg;base64,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");
     max-width:100%;
-  }
-  
-
-  h2 {
-    font-size: 32px;
-    margin-bottom: 1em;
   }
   
   .cards {
@@ -191,6 +174,7 @@
   
   
   h2{
+    
     margin-top:20px;
     height:100px;
     color:white;
@@ -198,6 +182,8 @@
     background-color:rgb(255, 47, 71);
     text-align:center;
     padding:25px;
+   
+   
   }
   
   img{
@@ -206,58 +192,116 @@
     height:150px;
   }
 
-  #spin-wheel {
-  width: 300px;
-  height: 300px;
-  border: 2px solid #000;
-  border-radius: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  font-size: 16px;
+#img1{
+  padding-left:0px;
 }
 
-.slice {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .carousel{
+    width:1000px;
+    height:600px;
+    position: relative; 
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-#spin-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 20px;
-  background-color: #ff0000;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.carousel > ul{
+  margin:0;
+  padding:0;
+  list-style: none; 
+
 }
 
-#spin-button:hover {
-  background-color: #cc0000;
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
 }
-.slice:nth-child(1) {
-  background-color: red;
+.slide > img {
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
 }
 
-.slice:nth-child(2) {
-  background-color: blue;
+.carousel > img{
+  display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+
 }
 
-.slice:nth-child(3) {
-  background-color: green;
+.carousel-button {
+    position:absolute;
+    z-index: 2;
+    background:none;
+    border:none;
+    font-size:4rem;
+    top:50%;
+    transform:translateY(-50%);
+    color: rgba(255,255,255,.5);
+    cursor: pointer;
+    border-radius:.25rem;
+    padding: 0 .5rem;
+    background-color:rgba(0, 0, 0, .1)
+}
+.carousel-button:hover,
+.carousel-button:focus{
+  color:white;
+  background-color:rgb(255, 47, 71, .2);
 }
 
+.carousel-button:focus{
+  outline: 1px solid black;
+}
+.slide[data-active] {
+    opacity: 1;
+    transition-delay:0;
+}
 
+.carousel-button.prev{
+  left:1rem;
+}
+.carousel-button.next{
+  right:1rem;
+}
+.carousel-content {
+  position:absolute;
+  background-color:rgb(255, 47, 71, .7);
+  text-align:center;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  width:100%;
+}
+
+#scrollButton {
+        display: none;
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        z-index: 99; 
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background-color: #555;
+        color: #fff;
+        cursor: pointer;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+      }
+
+      #scrollButton:hover {
+        opacity: 1;
+      }
 </style>
-@include('layouts.valoheader')
+@include('layouts.header')
 <body>
-
+<h2>VALORANT</h2>
   <div class="container">
     <div id="div1">
     <div class="text">
@@ -305,11 +349,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Controller</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Nova pulse (Stuns Enemy)</p>
-                <p> E - Nebula (Smoke)</p>
-                <p> C - Gravity Well (Pulles in)</p>
-                <p> X - ASTRAL FORM / COSMIC DIVIDE (Special form/Big Wall)</p>
+              <div class="modal-body" id="1">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -339,12 +379,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Initiator</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Flashpoint (Blinds Enemy)</p>
-                <p> E - Fault line (Stuns Enemy)</p>
-                <p> C - Aftershock (Fusion charge trough the wall)</p>
-                
-                <p> X - Rolling Thunder (Seismic charge, stuns enemy)
+              <div class="modal-body" id="2">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -373,12 +408,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Controller</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Incendiary (Fire Grenade)</p>
-                <p> E - Sky Smoke (Smoke)</p>
-                <p> C - Stim Beacon (Rapid Fire)</p>
-                
-                <p> X - Orbital Strike (Lingering orbital strike laser)</p>
+              <div class="modal-body" id="3">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -407,12 +437,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Sentinel</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Headhunter (Alt Fire)</p>
-                <p> E - Rendezvous (Teleport between two cards)</p>
-                <p> C - Trademark (Trap)</p>
-                
-                <p> X - Tour De Force (Powerful sniper)
+              <div class="modal-body" id="4">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -441,12 +466,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Sentinel</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Cyber Cage (Smoke)</p>
-                <p> E - Spycam (Vision)</p>
-                <p> C - Trapwire (Trap)</p>
-                
-                <p> X - Neural Teft (Use on dead enemy to reveal remaining enemies)
+              <div class="modal-body" id="5">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -468,20 +488,15 @@
         </div>
       </div>
       <div class="card-link-wrapper">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Cypher">Learn More</button>
-        <div class="modal fade" id="Cypher" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Fade">Learn More</button>
+        <div class="modal fade" id="Fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Initiator</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Seize (Explods and creates a cage zone)</p>
-                <p> E - Haunt (Vision)</p>
-                <p> C - Powler (Follows enemy and nearsights)</p>
-                
-                <p> X - Nightfall (Wave of nightmare energy that creates a trail of enemy)
+              <div class="modal-body" id="6">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -510,12 +525,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Controller</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> E - High Tide (Wall)</p>
-                <p> Q - Cove (Smoke with armor)</p>
-                <p> C - Cascade (Moving wall)</p>
-                
-                <p> X - Reckoning (Stun Zone)
+              <div class="modal-body" id="7">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -544,11 +554,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Dualist</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Updraft (Dash up)</p>
-                <p> E - Tailwind (Dash to side)</p>
-                <p> C - Cloudburst (Smoke)</p>
-                <p> X - Blade storm (Throwable daggers)
+              <div class="modal-body" id="8">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -578,12 +584,8 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Initiator</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Flash/Drive (Flash)</p>
-                <p> E - Zero/Point (Reveals enemy and disables abilities)</p>
-                <p> C - Frag/Ment (Grenade with 4 pulses)</p>
-                
-                <p> X - Null/Cmd (Disables enemy abilities)
+              <div class="modal-body" id="9">
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -611,12 +613,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Sentinel</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Alarmbot (Trap)</p>
-                <p> E -  Turret (Fires enemy in 180 degree cone.</p>
-                <p> C - Nanoswarm (Planted grenade)</p>
-                
-                <p> X - Lockdown (Detains all enemies in radius)
+              <div class="modal-body" id="10">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -645,12 +642,8 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Dualist</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Relay Bolt (Bouncing Stun)</p>
-                <p> E - High gear (Increase speed)</p>
-                <p> C - Fast Lane (Two surrounding walls)</p>
-                
-                <p> X - Overdrive (Charged deadly lighting with high movement accuracy)
+              <div class="modal-body" id="11">
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -679,7 +672,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Controller</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
+              <div class="modal-body" id="11">
                 <p> Q - Paranoia (Reducing the vision range)</p>
                 <p> E - Dark Cover (Smoke)</p>
                 <p> C - Shrouded Step (Teleport)</p>
@@ -713,11 +706,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Dualist</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Curveball(Flash)</p>
-                <p> E - Hot Hands (Fire zone)</p>
-                <p> C - Blaze (Fire wall)</p>  
-                <p> X - Run It Back (Clones and teleports back to the ultimate spot)
+              <div class="modal-body" id="12">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -746,12 +735,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Dualist</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Blast pack (Damage/Movement)</p>
-                <p> E - Paint Shells (Grenade)</p>
-                <p> C - Boom Bot (Locks on enemy and blows up)</p>
-                
-                <p> X - Showstopper (Rocket Launcher)
+              <div class="modal-body" id="13">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -781,11 +765,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Dualist</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Devour (Heal)</p>
-                <p> E - Dismiss (Become Intangible for a short duration)</p>
-                <p> C - Leer (Flash eye)</p>
-                <p> X - Empress (Increase rapid fire, Heal, Ghost)
+              <div class="modal-body" id="14">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -814,11 +794,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Sentinel</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Slow Orb (Slows enemies)</p>
-                <p> E - Healing Orb (Heals enemies or yourself)</p>
-                <p> C - Barrier Orb (Ice Wall)</p>
-                <p> X - Resurrection (Revives teammates)</p>
+              <div class="modal-body" id="15">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -847,11 +823,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Initiator</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Trailblazer (Controllable dog for information)</p>
-                <p> E - Guiding Light (Controllable flash)</p>
-                <p> C - Regrowth (Heal Zone)</p>
-                <p> X - Seekers (Seeks enemies and blinds them)</p>
+              <div class="modal-body" id="16">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -880,12 +852,8 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Inititator</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Shock Bolt (Damage bolt)</p>
-                <p> E - Recon dart (Vision)</p>
-                <p> C - Owl Drone (Information)</p>
-                
-                <p> X - Hunter's Fury (Three deadly shots with far range that shoot in a straight line)</p>
+              <div class="modal-body" id="17">
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -914,12 +882,7 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Controller</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <p> Q - Poison Cloud (Smoke(re-usable))</p>
-                <p> E - Toxic Screen (Wall(re-usable))</p>
-                <p> C - Snake Bite (Toxic grenade)</p>
-                
-                <p> X - Viper's Pit (Toxic zone , leaves enemy with 1 hitpoint.)
+              <div class="modal-body" id="18">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -948,12 +911,79 @@
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Dualist</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
+              <div class="modal-body" id="19">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+
+
+    </li>
+  </ul>
+</div>
+
+<h2> Valorant Weapons</h2>
+<ul class="cards">
+    <li class="card">
+      <div>
+        <h3 class="card-title">Vandal</h3>
+        <img src ="https://fpschampion.com/wp-content/uploads/2022/07/Standard-2.jpg">
+        <div class="card-content">
+          <p> The Vandal is a Rifle that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Vandal" style="margin-top:75px;">Learn More</button>
+        <div class="modal fade" id="Vandal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Controller</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
               <div class="modal-body">
-                <p> Q - Blindside (Flash)</p>
-                <p> E - Gatecrash (Teleport or Fake Teleport)</p>
-                <p> C - Fakeout (Fake Clone)</p>
-                
-                <p> X - Dimensional Drift (Become invisible and gather information and weapon)
+                <p> Type - Rifle </p>
+                <p> Costs - 2900</p>
+                <p> Magazine - 25 / 50 (75)</p>
+                <p> Fire Mode - Auto</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </li>
+
+    <li class="card">
+      <div>
+        <h3 class="card-title">Phantom</h3>
+        <img src="https://prod.assets.earlygamecdn.com/images/ValorantPhantom.jpg?x=0.5&y=0.5">
+        <div class="card-content">
+          <p>The Vandal is a Rifle that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Phantom">Learn More</button>
+        <div class="modal fade" id="Phantom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Phantom</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Rifle</p>
+                <p> Cost - 2900</p>
+                <p> Magazine - 30 / 60 (90)</p>
+                <p> Fire Mode - Rifle</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -965,8 +995,624 @@
         
       </div>
     </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Guardian</h3>
+        <img src="https://s.yimg.com/ny/api/res/1.2/ckTNgi7qmJ1YCb0fRq7ctw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2021-10/96a62940-2276-11ec-80fe-25a96f53df0f">
+        <div class="card-content">
+          <p>The Vandal is a Rifle that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Guardian">Learn More</button>
+        <div class="modal fade" id="Guardian" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Guardian</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Rifle</p>
+                <p> Cost - 2250</p>
+                <p> Magazine - 12 / 24 (36)</p>
+                <p> Fire Mode - Semi-autimatic</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Bulldog</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/07/standard.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Rifle that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Bulldog">Learn More</button>
+        <div class="modal fade" id="Bulldog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Bulldog</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Rifle</p>
+                <p> Cost - 2050</p>
+                <p> Magazine - 24 / 48 (72)</p>
+                <p> Fire Mode - Auto</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Marshall</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/04/Marhsall-in-Valorant-Skin.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Sniper-Rifle that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Marshall">Learn More</button>
+        <div class="modal fade" id="Marshall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Marshall</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Sniper-Rifle</p>
+                <p> Cost - 950</p>
+                <p> Magazine - 5 / 10 (15)</p>
+                <p> Fire Mode - Semi</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Operator</h3>
+        <img src="https://prod.assets.earlygamecdn.com/images/ValorantOperator.jpg?x=0.5&y=0.5">
+        <div class="card-content">
+          <p>The Vandal is a Sniper-Rifle that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Operator">Learn More</button>
+        <div class="modal fade" id="Operator" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Operator</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Sniper-Rifle</p>
+                <p> Cost - 4700</p>
+                <p> Magazine - 5 / 5 (10)</p>
+                <p> Fire Mode - Semi</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Ares</h3>
+        <img src="https://prod.assets.earlygamecdn.com/images/valorant-ares.jpg?transform=article3x_webp&x=0.5&y=0.5">
+        <div class="card-content">
+          <p>The Vandal is a Machine-Gun that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Ares">Learn More</button>
+        <div class="modal fade" id="Ares" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Ares</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Machine Gun</p>
+                <p> Cost - 1600</p>
+                <p> Magazine - 50 / 50 (100)</p>
+                <p> Fire Mode - Auto</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Odin</h3>
+        <img src="https://prod.assets.earlygamecdn.com/images/valorant-odin.png?x=0.5&y=0.5">
+        <div class="card-content">
+          <p>The Vandal is a Machine-Gun that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Odin">Learn More</button>
+        <div class="modal fade" id="Odin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Odin</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Rifle</p>
+                <p> Cost - 3200</p>
+                <p> Magazine - 100 / 100 (200)</p>
+                <p> Fire Mode - Auto</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Classic</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/08/standard-4-768x377.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Sidearm in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Classic">Learn More</button>
+        <div class="modal fade" id="Classic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Classic</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Sidearm</p>
+                <p> Cost - Free</p>
+                <p> Magazine - 12 / 24 (36)</p>
+                <p> Fire Mode - Semi-Autimatic</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Shorty</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/08/standard.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Sidearm in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Shorty">Learn More</button>
+        <div class="modal fade" id="Shorty" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Shorty</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Sidearm</p>
+                <p> Cost - 300</p>
+                <p> Magazine - 2 / 4</p>
+                <p> Fire Mode - Semi</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Frenzy</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/07/standard-3.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Sidearm in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Frenzy">Learn More</button>
+        <div class="modal fade" id="Frenzy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Frenzy</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Sidearm</p>
+                <p> Cost - 450</p>
+                <p> Magazine - 13 / 26 (39)</p>
+                <p> Fire Mode - Auto</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Ghost</h3>
+        <img src="https://static1-es.millenium.gg/articles/1/51/00/1/@/282172-ghost-valorant-1-article_cover_bd-1.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Sidearm VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Ghost">Learn More</button>
+        <div class="modal fade" id="Ghost" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Ghost</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Sidearm</p>
+                <p> Cost - 500</p>
+                <p> Magazine - 15 / 30 (45)</p>
+                <p> Fire Mode - Semi</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Sheriff</h3>
+        <img src="https://cdn.sanity.io/images/dmtcrhxp/production/962b9b9572f2f64b8caa8835a59ee4fa8eb2014c-1600x843.png?rect=51,0,1499,843&w=1920&h=1080&q=30&auto=format">
+        <div class="card-content">
+          <p>The Vandal is a Sidearm in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Sheriff">Learn More</button>
+        <div class="modal fade" id="Sheriff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Sheriff</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Sidearm</p>
+                <p> Cost - 800</p>
+                <p> Magazine - 6 / 18 (24)</p>
+                <p> Fire Mode - Semi</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Stinger</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/07/Standard-7-1024x501.avif">
+        <div class="card-content">
+          <p>The Vandal is an SMG that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Stinger">Learn More</button>
+        <div class="modal fade" id="Stinger" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Stinger</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - SMG</p>
+                <p> Cost - 1100</p>
+                <p> Magazine - 20 / 40 (60)</p>
+                <p> Fire Mode - Auto</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Spectre</h3>
+        <img src="https://prod.assets.earlygamecdn.com/images/ValorantSpectre.jpg?transform=article3x_webp&x=0.5&y=0.5">
+        <div class="card-content">
+          <p>The Vandal is an SMG that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Spectre">Learn More</button>
+        <div class="modal fade" id="Spectre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Spectre</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - SMG</p>
+                <p> Cost - 1600</p>
+                <p> Magazine - 30 / 60 (90)</p>
+                <p> Fire Mode - Fully Automatic</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Bucky</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/07/Standard-1.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Shotgun that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Bucky">Learn More</button>
+        <div class="modal fade" id="Bucky" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Bucky</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Shotgun</p>
+                <p> Cost - 850</p>
+                <p> Magazine - 5 / 10 (15)</p>
+                <p> Fire Mode - Semi</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </li>
+    <li class="card">
+      <div>
+        <h3 class="card-title">Judge</h3>
+        <img src="https://fpschampion.com/wp-content/uploads/2022/07/standard-5.jpg">
+        <div class="card-content">
+          <p>The Vandal is a Shotgun that is a primary weapon in VALORANT.</p>
+        </div>
+      </div>
+      <div class="card-link-wrapper">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Judge">Learn More</button>
+        <div class="modal fade" id="Judge" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Judge</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p> Type - Shotgun</p>
+                <p> Cost - 1850</p>
+                <p> Magazine - 7 / 21 (28)</p>
+                <p> Fire Mode - Auto</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+</div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </li>
+
+ 
+
+
+
+
+
+  </ul>
+  </div>
+
+
+<h2> Active Duty Maps:</h2>
+<section aria-label="Newest Maps">
+  <div class="carousel" data-carousel>
+    <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+  <ul data-slides>
+    <li class="slide" data-active>
+      <div class="carousel-content">
+    <h1> Ascent </h1>
+    </div>
+      <img src="https://s3-eu-central-1.amazonaws.com/www-staging.esports.com/WP%20Media%20Folder%20-%20esports-com/app/uploads/2021/08/Ascent-720x405.jpg" alt="Map Image #1" id="img1">
+    </li>
+    <li class="slide">
+      <div class="carousel-content">
+        <h1>Split</h1>
+      </div>
+    <img src="https://images.adsttc.com/media/images/6250/5229/3e4b/314f/7800/0010/large_jpg/split4-2.jpg?1649431077" alt="Map Image #2" id="img1">
+  </li>
+  <li class="slide">
+      <div class="carousel-content">
+        <h1>Haven</h1>
+      </div>
+    <img src="https://images.adsttc.com/media/images/6250/5209/3e4b/315d/6d00/0013/large_jpg/haven4.jpg?1649431045" alt="Map Image #3" id="img1">
+  </li>
+  <li class="slide">
+      <div class="carousel-content">
+        <h1>Bind</h1>
+      </div>
+    <img src="https://prod.assets.earlygamecdn.com/images/bind-map_2023-03-30-191424_bpjs.jpg?mtime=1680203665" alt="Map Image #4" id="img1">
+  </li>
+  <li class="slide">
+      <div class="carousel-content">
+        <h1>Fracture</h1>
+      </div>
+    <img src="https://prod.assets.earlygamecdn.com/images/Fracture-Map.png?mtime=1666013217" alt="Map Image #5" id="img1">
+  </li>
+  <li class="slide">
+      <div class="carousel-content">
+        <h1>Pearl</h1>
+      </div>
+    <img src="https://cdn.oneesports.gg/cdn-data/2022/06/Valorant_Pearl_Statue.webp" alt="Map Image #6" id="img1">
+  </li>
+  <li class="slide">
+      <div class="carousel-content">
+        <h1>Lotus</h1>
+      </div>
+    <img src="https://dotesports.com/wp-content/uploads/2023/01/06145542/6-1MediaKit_Lotus10.png" alt="Map Image #7" id="img1">
+  </li>
   </ul>
 </div>
-@include("layouts.footer")
+</section>
+  </div>
+<button onclick="scrollToTop()" id="scrollButton" title="Go to top">Top</button>
 </body>
+
 </html>
+@include("layouts.footer")
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js%22%3E">
+  axios.get('127.0.0.1:8000/abilityData').then(resp => {
+
+console.log(resp.data);
+});
+</script>
+<script>
+    const buttons = document.querySelectorAll("[data-carousel-button]")
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const offset = button.dataset.carouselButton === "next" ? 1 : -1
+    const slides = button
+    .closest("[data-carousel]")
+    .querySelector("[data-slides]")
+    const activeSlide = slides.querySelector("[data-active]")
+    let newIndex = [...slides.children].indexOf(activeSlide) + offset
+    if (newIndex < 0) newIndex = slides.children.length -1
+    if (newIndex >= slides.children.length) newIndex = 0
+    slides.children[newIndex].dataset.active = true
+    delete activeSlide.dataset.active
+  })
+})
+  window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        var scrollButton = document.getElementById("scrollButton");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollButton.style.display = "block";
+        } else {
+          scrollButton.style.display = "none";
+        }
+      }
+      function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      };
+
+
+      $.ajax({
+                url: 'http://127.0.0.1:8000/abilityData',
+                type: 'get',
+                success: function( response ) {
+                  response.forEach(elem => {
+             $(`#${elem.abilityID}`).append(`<p>${elem.abilityKey} - ${elem.abilityName} ${elem.abilityDesc}</p>`)
+          })
+                },
+                error: function(response) {
+                    alert(response.responseJSON.error)
+                }
+            })
+  
+
+
+
+
+</script>

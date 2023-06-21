@@ -79,9 +79,13 @@ img{    height: 200px;
     display:flex;
     padding:50px;
 }
+
+
     </style>
 </head>
 <body>
+
+
 <div class="texttop">
     <b><h1> Gaming Community</h1></b>
     <b><p> Game Updates and E-sport.</p></b>
@@ -140,3 +144,8 @@ img{    height: 200px;
 </div>
 </body>
 </html>
+
+<script>
+
+
+</script>

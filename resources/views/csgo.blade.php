@@ -16,7 +16,19 @@
 *, *::before, *::after {
     box-sizing:border-box;
 }
-
+.text {
+    color:white;
+    text-align:left;
+    flex: 1;
+  }
+  #div1{
+    width:45%;
+    float:left;
+  }
+  #div2{
+    width:45%;
+    float:right;
+  }
 body{   
    background-image: url('https://steamcdn-a.akamaihd.net/apps/csgo/blog/images/wallpaper_nologo.jpg');
   background-repeat: no-repeat;
@@ -54,7 +66,6 @@ body{
     object-fit:cover;
     object-position:center;
 }
-
 .carousel-button {
     position:absolute;
     z-index: 2;
@@ -82,7 +93,6 @@ body{
     opacity: 1;
     transition-delay:0;
 }
-
 .carousel-button.prev{
   left:1rem;
 }
@@ -103,7 +113,7 @@ body{
     }
 
     .title{
-        margin-bottom:50px;
+        margin-bottom:15px;
     }
     .container{
         background: rgba(0, 0, 0, 0.5);
@@ -113,35 +123,43 @@ body{
         display:flex;
         justify-content:center;
     }
-
     .button{
         text-align:center;
     }
 
 </style>
+@include('layouts.header')
 <body>
 
-    <div class="container">
+
+
+  <div class="container">
+    <div id="div1">
     <div class="text">
-        <div class="title">
-    <h1>Information about CS:GO</h1>
-        </div>
-    <p>Counter-Strike: Global Offensive (CS:GO) is a 2012 multiplayer tactical first-person shooter developed by Valve and Hidden Path Entertainment.</p>
+      <div class="title">
+      <h2>Information about CS:GO</h2>
+      </div>
+      <p>Counter-Strike: Global Offensive (CS:GO) is a 2012 multiplayer tactical first-person shooter developed by Valve and Hidden Path Entertainment.</p>
         <p> It is the fourth game in the Counter-Strike series. Developed for over two years,</p>
          <p> Global Offensive was released for OS X, PlayStation 3, Windows, and Xbox 360 in August 2012, and for Linux in 2014.</p>
          <p>  Valve still regularly updates the game, both with smaller balancing patches and larger content additions.</p>
-
        <p> The game pits two teams, Terrorists and Counter-Terrorists, against each other in different objective-based game modes.</p>
-       <p>  The most common game modes involve the Terrorists planting a bomb while Counter-Terrorists attempt to stop them,</p>
-       <p>   or Counter-Terrorists attempting to rescue hostages that the Terrorists have captured. </p>
-       <p>   There are nine official game modes, all of which have distinct characteristics specific to that mode.</p>
-       <p>    The game also has matchmaking support that allows players to play on dedicated Valve servers, </p>
-       <p> in addition to community-hosted servers with custom maps and game modes. A battle-royale game-mode, "Danger Zone", was introduced in late 2018.</p>
-        <h1 style="text-align:center">What is CS:GO? [Animated]</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RIZWzT_RL6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
 
+      </div> 
 </div>
+    
+      <div id="div2">
+<div class="video">
+      <h1 style="text-align:center ;  color:white">What is CS:GO? [Animated]</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RIZWzT_RL6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
+</div>
+
+
+
+
+
 <h1 style="color:white; text-align:center; font-size:60px; padding-bottom:20px">Active Duty Maps:</h1>
 <section aria-label="Newest Maps">
   <div class="carousel" data-carousel>
